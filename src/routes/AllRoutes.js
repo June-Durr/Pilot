@@ -1,5 +1,5 @@
 import {Routes, Route } from "react-router-dom";
-import { Login, Profile, TaskApp, TaskDetail } from "../pages";
+import {Login, Profile, TaskApp, TaskDetail} from "../pages/index";
 
 export const AllRoutes = () => {
   return (
@@ -12,4 +12,4 @@ export const AllRoutes = () => {
         </Routes>
     </>
   )
-}
+};
